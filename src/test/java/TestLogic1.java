@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
  * The test class String1Test. Dont edit or it will mess up your grade :)
  *
  * @author Mr. Johnson
- * @version 8/12/24 v1 (a version number or a date)
+ * @version 8/26/24 v1 (a version number or a date)
  */
 public class TestLogic1{
     private Logic1 testLogic = new Logic1();
