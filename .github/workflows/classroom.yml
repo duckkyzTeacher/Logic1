@@ -213,8 +213,8 @@ jobs:
         GREENTICKETTEST_RESULTS: "${{steps.greenTicketTest.outputs.result}}"
         SQUIRRELPLAYTEST_RESULTS: "${{steps.squirrelPlayTest.outputs.result}}"
         CAUGHTSPEEDINGTEST_RESULTS: "${{steps.caughtSpeedingTest.outputs.result}}"
-	DATEFASHIONTEST_RESULTS: "${{steps.dateFashionTest.outputs.result}}"
-	FIZZSTRING2TEST_RESULTS: "${{steps.fizzString2Test.outputs.result}}"
-	SODAPARTYTEST_RESULTS: "${{steps.sodaPartyTest.outputs.result}}"
+        DATEFASHIONTEST_RESULTS: "${{steps.dateFashionTest.outputs.result}}"
+        FIZZSTRING2TEST_RESULTS: "${{steps.fizzString2Test.outputs.result}}"
+        SODAPARTYTEST_RESULTS: "${{steps.sodaPartyTest.outputs.result}}"
       with:
         runners: old35Test,specialElevenTest,more20Test,less20Test,nearTenTest,sortaSumTest,in1To10Test,teenSumTest,love6Test,lastDigitTest,answerCellTest,alarmClockTest,teaPartyTest,redTicketTest,greenTicketTest,squirrelPlayTest,caughtSpeedingTest,dateFashionTest,fizzString2Test,sodaPartyTest
